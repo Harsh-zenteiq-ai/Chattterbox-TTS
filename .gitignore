@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+temp_process/
+
+# Virtual environments
+.venv
+# Model files
+model/
+extra/
+
+
+# Audio and data files
+*.wav
+*.json

@@ -1,0 +1,14 @@
+[project]
+name = "tts-tool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chatterbox-tts>=0.1.6",
+    "fastapi>=0.128.0",
+    "num2words>=0.5.14",
+    "numpy==1.25.2",
+    "uvicorn>=0.40.0",
+    "whisper-timestamped>=1.15.9",
+]
